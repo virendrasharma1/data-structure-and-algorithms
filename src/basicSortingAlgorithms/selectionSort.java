@@ -1,12 +1,16 @@
 package basicSortingAlgorithms;
 
+// Sending least elements at beginning
+// Worst, Average case performance is O(n Squared)
+// Best case is also O(n Squared)
+
 public class selectionSort {
 
     private void selectionSortImplementation(int[] array) {
         int n = array.length;
-        for (int i = 0; i < n-1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             int min_index = i;
-            for (int j = i+1 ; j < n ; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (array[j] < array[min_index]) {
                     min_index = j;
                 }

@@ -1,5 +1,9 @@
 package basicSortingAlgorithms;
 
+// Sending biggest elements at last
+// Worst, Average case performance is O(n Squared)
+// Best case is O(n)
+
 public class bubbleSort {
 
     private void bubbleSortImplementation(int[] array) {
