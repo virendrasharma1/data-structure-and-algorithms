@@ -1,6 +1,9 @@
 package basicSortingAlgorithms;
 
 // Same as selection sort, it pushes in front also but in a sorted array
+// Worst, Average case performance is O(n Squared)
+// Best case is O(n)
+// Faster than bubble sort 500%
 
 public class insertionSort {
 
